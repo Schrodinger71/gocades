@@ -1,0 +1,3 @@
+CompileFlags:
+  Add: [-DUNIX, -I/opt/cprocsp/include/pki, -I/opt/cprocsp/include/cpcsp, -I/opt/cprocsp/include]
+  Link: [-L/opt/cprocsp/lib/amd64, -lcades, -lcapi20, -lcapi10, -lrdrsup]
